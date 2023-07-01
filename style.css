@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body, html{
+  background: #000000;
+  text-align:center;
+  height:100%
+}
+
+body.index{
+  max-height:100%;
+}
+
+body.stamboom{
+  background-color: rgba(24,26,27,255);
+}
+
+nav{
+    position: sticky;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+  font-size:large;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+
+footer p{
+  padding-top:1%;
+  padding-bottom:1%;
+  
+  color:white;
+  text-decoration: none;
+  font-size:large;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+footer a{
+  color:white;
+  text-decoration: none;
+  font-size:large;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+hr{
+  width:96%;
+  height:2%;
+  margin:auto;
+  opacity:0.5;
+}
+
+main{
+  .title{
+    font-size:32px;
+    margin-bottom:1%;
+    position: relative;
+    color:#fff;
+  }
+  .beschrijving{
+    opacity:0.86;
+    font-size:large;
+    margin-right:3%;
+    margin-left:3%;
+  }
+}
+
+
+main.index{
+  .Achilles{
+    max-width:96%;
+    margin:1%;
+  }
+  .box{
+    color:white;
+    width:40%;
+    background: rgba(0, 0, 0, 0.6);
+    padding:1rem;
+    position:absolute;
+    border-radius: 5%;
+    top:70%;
+    left:2.5%;
+  }
+}
+
+main.tijdlijn{
+  background-color:#000000;
+  min-height:100vh;
+  padding:0.5%;
+  .vl {
+    border-left: 1.8px solid rgb(255, 255, 255);
+    opacity:0.5;
+    position:absolute;
+    height:350%;
+    margin-left:50%;
+  }
+  .timeline {
+    width:calc(100% - 80px);
+    max-width:1000px;
+    margin:auto;
+    margin-top:25px;
+    position: relative;
+    left:-5px;
+    .container {
+      width:calc(50% - 80px);
+      float:left; 
+      padding:20px;
+      clear:both;
+      text-align:right;
+      background-color:#131313;
+      border-radius:5%;
+      .body {
+        color:#c7c7c7;
+        .image {
+          margin-top:6%;
+          width:100%;
+        }
+      }
+      &:nth-child(2n) {
+        text-align:left;
+        float:right;
+      }
+    }
+  }
+}
+
+main.stamboom{
+  .Stamboom{
+    max-width:96%;
+    margin:1%;
+    bottom:10%;
+  }
+}
+
+main.bronnen{
+  margin:1%;
+  color:white;
+  font-style:oblique;
+  font-size: large;
+  .link{
+    color:white;
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
+
